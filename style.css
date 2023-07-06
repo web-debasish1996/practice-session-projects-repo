@@ -3,10 +3,27 @@
     padding: 0;
 }
 .menu-container{
-    background-color: black;
+    background-color: rgb(32, 32, 32);
     padding: 20px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
 }
 .logo-photo{
     width: 120px;
+}
+.menus{
+    display: flex;
+}
+.menus li{
+    list-style: none;
+}
+.menus .item{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.menus .item:hover{
+    color: aquamarine;
+    cursor: pointer;
 }
