@@ -27,3 +27,31 @@
     color: aquamarine;
     cursor: pointer;
 }
+.hero-img{
+    width: 300px;
+}
+.hero-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-image: url("images/background.png"),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+}
+.hero-title{
+    font-size: 55px;
+    font-weight: 700;
+}
+.description{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
